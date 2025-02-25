@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-products</title>
+</head>
+<body>
+    <div class="input-group mb-3">
+        <span class="input-group-text">Photo</span>
+        <input type="file" class="form-control" id="photo" accept="image/*">
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">Title</span>
+        <input type="text" class="form-control" placeholder="Enter title" aria-label="Title">
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">Description</span>
+        <textarea class="form-control" placeholder="Enter description (max 100 characters)" aria-label="Description" maxlength="100"></textarea>
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="number" class="form-control" placeholder="Price" aria-label="Price" step="0.01">
+        <span class="input-group-text">.00</span>
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">Quantity</span>
+        <input type="number" class="form-control" placeholder="Enter quantity" aria-label="Quantity" min="0">
+      </div>
+</body>
+</html>
